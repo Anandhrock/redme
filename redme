@@ -1,0 +1,24 @@
+1.Document Object:
+     The Document object represents a web page that is loaded in the browser. It provides access to the elements within the HTML page.
+You can access the Document object using either window.document or simply document.
+
+Some commonly used properties of the Document object include:
+activeElement: Returns the currently active element in the document.
+body: Returns the contents of the <body> element.
+anchors: Returns all <a> elements with a name attribute.
+baseURI: Represents the base URI of the document.
+cookie: Retrieves the cookie of the current document.
+charSet: Represents the document’s character encoding.
+defaultView: Refers to the current Window object.
+
+2.Window Object:
+     The Window object represents the browser window where your document is displayed.
+It has a property called document, which stores a representation of the loaded document (such as title, anchors, etc.).
+The Window object provides a broader scope, encompassing properties, methods, and functionalities related to the entire browser window.
+While the Document object focuses on representing and manipulating content within an HTML document, the Window object extends beyond that to include browser-specific features234.
+
+Some common properties and methods of the Window object:
+location: Represents the current URL.
+history: Provides access to the browser’s history.
+open(): Opens a new browser window.
+alert(): Displays an alert dialog.
